@@ -31,6 +31,7 @@
 }
 
 .header__menu, .header__menu-mobile {
+    background-color: var(--color-creamson);
     padding: 20px;
     flex: 1.236;
     display: flex;
