@@ -31,7 +31,7 @@
 }
 
 .header__menu, .header__menu-mobile {
-    background-color: var(--color-creamson);
+    
     padding: 20px;
     flex: 1.236;
     display: flex;
@@ -40,6 +40,13 @@
     gap: 64px;
   
     list-style: none;
+  }
+
+  .header__menu {
+    background-color: var(--color-creamson);
+  }
+  .header__menu-mobile {
+    background-color: var(--primary-color);
   }
 
 .header__menu li {
@@ -63,4 +70,8 @@
     gap: 20px;
 
     position: relative;
+}
+
+.header__menu-mobile li {
+    cursor: pointer;
 }
